@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "254400091493",
+    "project_id": "androidmanifest123",
+    "storage_bucket": "androidmanifest123.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254400091493:android:259c9d8d2e0cf5722c3d8c",
+        "android_client_info": {
+          "package_name": "com.example.anonymouschat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1OcXkHcTeN5dJO9RYqOU73qieqROyz0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
