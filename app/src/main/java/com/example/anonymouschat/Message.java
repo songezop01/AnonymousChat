@@ -1,22 +1,28 @@
 package com.example.anonymouschat;
 
 public class Message {
-    private String userId;
-    private String content;
-    private long timestamp;
+    String fromUid;
+    String text;
+    String nickname;
+    long timestamp;
 
-    public Message(String userId, String content, long timestamp) {
-        this.userId = userId;
-        this.content = content;
+    public Message(String fromUid, String text, String nickname, long timestamp) {
+        this.fromUid = fromUid;
+        this.text = text;
+        this.nickname = nickname;
         this.timestamp = timestamp;
     }
 
-    public String getUserId() {
-        return userId;
+    public String getFromUid() {
+        return fromUid;
     }
 
-    public String getContent() {
-        return content;
+    public String getText() {
+        return text;
+    }
+
+    public String getNickname() {
+        return nickname;
     }
 
     public long getTimestamp() {
